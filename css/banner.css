@@ -1,0 +1,22 @@
+.banner {
+  max-width: 980px;
+  margin: 0 auto;
+  display: flex;
+  background-color: var(--blanco);
+  margin-bottom: 8rem;
+}
+
+.banner__buton {
+  padding: 1rem 2rem;
+  background-color: var(--secundario);
+  color: var(--blanco);
+  border: none;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+}
+
+.banner__buton:hover {
+    background-color: var(--blanco);
+    color: var(--secundario);
+    border: 2px solid var(--secundario);
+  }

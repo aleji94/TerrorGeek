@@ -1,0 +1,85 @@
+.header {
+  display: flex;
+  margin: 0 auto;
+  cursor: pointer;
+  font-family: sans-serif;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  height: 20rem;
+  background-color: var(--blanco);
+}
+
+.form {
+  height: 40px;
+  box-shadow: 3px 9px 5px 0px rgba(0, 0, 0, 0.77);
+  -webkit-box-shadow: 3px 9px 5px 0px rgba(0, 0, 0, 0.77);
+  -moz-box-shadow: 3px 9px 5px 0px rgba(0, 0, 0, 0.77);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  transition: 0.5s;
+}
+
+@media (max-with: 480px) {
+ .header {
+  flex-direction: row;
+  justify-content: start;
+ }
+
+
+}
+
+@media (max-width: 768px) {
+  .header {
+    max-width: 400px;
+    gap: 2rem;
+  }
+
+  .banner {
+    max-width: 400px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+
+}
+
+
+
+.header .logo {
+  height: 90px;
+  width: 90px;
+}
+
+.imagen-header {
+  height: 30px;
+  width: 30px;
+}
+
+.input-header {
+  padding: 10px;
+  outline: none;
+  border: none;
+  background-color: var(--blanco);
+  width: 250px;
+  margin-right: 2rem;
+}
+
+.btn-ingresar {
+  padding: 1rem 2rem;
+  background-color: var(--secundario);
+  color: var(--blanco);
+  border: none;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+  font-family: var(--fuente-principal);
+}
+
+.btn-ingresar:hover {
+  background-color: var(--blanco);
+  color: var(--secundario);
+  border: 2px solid var(--secundario);
+}

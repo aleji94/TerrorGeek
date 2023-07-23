@@ -1,0 +1,66 @@
+.seccion-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  background: var(--blanco);
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2.5rem;
+  box-shadow: 0 5px 10px rgba(71, 3, 6, 0.7);
+  margin: 0 auto;
+}
+
+form .form-title {
+  color: var(--negro);
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+form label {
+  margin-bottom: 3.5rem;
+}
+
+form label .fa-solid {
+  font-size: 4rem;
+  color: var(--secundario);
+  margin-right: 1rem;
+}
+
+form label input {
+  outline: none;
+  border: none;
+  color: var(--negro);
+  border-bottom: solid 1px var(--secundario);
+  padding: 0 5px;
+  font-size: 1.8rem;
+}
+
+form label input::placeholder {
+  color: var(--negro);
+}
+
+form .link {
+  color: var(--negro);
+  margin-bottom: 3.5rem;
+  text-align: center;
+}
+
+form button {
+  padding: 1rem 2rem;
+  background-color: var(--negro);
+  color: var(--blanco);
+  border: none;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+  font-family: var(--fuente-principal);
+}
+
+form button:hover {
+  background-color: var(--secundario);
+}

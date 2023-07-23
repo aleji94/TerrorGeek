@@ -1,0 +1,89 @@
+.contenedor-principal {
+  margin-top: 4rem;
+  background-color: var(--tercero);
+}
+
+.contenedor-secundario {
+  width: 980px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 0 auto;
+}
+
+
+
+.seccion-contacto .logo {
+  max-width: 20%;
+}
+
+.seccion-contacto .información {
+  max-width: 55%;
+}
+
+.seccion-contacto .formulario {
+  max-width: 25%;
+}
+
+@media (max-width: 768px) {
+  .seccion-contacto .logo {
+    display: none;
+  }
+
+  .contenedor-secundario {
+     
+    justify-content: space-evenly;
+     
+  }
+
+  .seccion-contacto .información {
+    max-width: 100%;
+  }
+  
+  .seccion-contacto .formulario {
+    max-width: 100%;
+  }
+
+  
+}
+
+.seccion-contacto .list-item {
+  list-style: none;
+  margin-top: 2.8rem;
+}
+
+.seccion-contacto .enlace-item {
+  color: var(--negro);
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario-label,
+.formulario-input {
+  margin-bottom: 0.2rem;
+  outline: none;
+  padding: 0.3rem 0;
+}
+
+.formulario-input {
+  border: 1px solid var(--gris);
+}
+
+.formulario-submit {
+  margin-top: 2rem;
+  outline: none;
+  padding: 1rem;
+  color: var(--blanco);
+  border: 1px solid var(--secundario);
+  background-color: var(--secundario);
+  letter-spacing: 0.3rem;
+}
+
+.formulario-submit:hover {
+  background-color: var(--blanco);
+  color: var(--secundario);
+}

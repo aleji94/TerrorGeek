@@ -1,0 +1,109 @@
+
+/* RESETEAN EL CÓDIGO PARA QUE SE PUEDAN USAR LOS REM*/
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before ,*:after {
+    box-sizing: inherit; /*Hack para BOX MODEL*/
+}
+
+body {
+    font-size: 16px;
+    font-family: var(--fuente-principal);
+}
+ 
+
+
+/*PARA DEFINIR CUSTOM PROPERTIES, ELEMENTOS QUE NO ESTÁN EN EL HTML PERO SE VAN A USAR POSTERIORMENT */
+
+:root {
+    --blanco: #ffffff;
+    --negro: #000000;
+    --primario: #ffc107;
+    --secundario: #9C0001;
+    --tercero: #EAF2FD;
+    --gris: #CDCDCD;
+    --grisClaro: #EEEDED;
+    --fuente-principal: font-family: 'Montserrat', sans-serif;
+    font-family: 'Pangolin', cursive;
+}
+
+
+h2 {
+    font-size: 2.8rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+/*Globales*/
+
+/*.contenedor {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}*/
+
+a {
+    text-decoration: none;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+/* Utilidades*/ 
+
+.no-margin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+
+/* HEADER  */
+ 
+
+
+
+ 
+
+/* MEDIA QUIERES */ 
+
+/*=========CELULARES===========*/
+@media (min-with: 480px) {
+    
+}
+
+/*=========TABLETS===========*/
+@media (min-with: 768px) {
+    
+}
+
+/*=========LAPTOS/ESCRITORIOS===========*/
+@media (min-with: 1140PX) {
+    
+}
+
+
+/*=========TELEVISORES===========*/
+@media (min-with: 1400PX) {
+    
+}
+
+ 
+
+
+
+
